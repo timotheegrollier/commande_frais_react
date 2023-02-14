@@ -1,5 +1,5 @@
 import PriseCommande from './pages/PriseCommande';
-import Recap from './components/Recap';
+import Recap from './pages/Recap';
 import './App.scss'
 
 import {

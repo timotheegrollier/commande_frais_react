@@ -1,9 +1,20 @@
 import React, { Component } from 'react';
 
+
+
 class Nav extends Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            pageTitle: props.title,
+        }
+    }
+
+
     render() {
         return (
-                <nav className="position-relative">
+            <nav className="position-relative">
+                <div id="navbar-content">
                     <div id="bouton_retour">
                         <a href="/">
                             <svg width="30px" height="30px">
@@ -12,7 +23,9 @@ class Nav extends Component {
                             </svg>
                         </a>
                     </div>
-                </nav>
+                        <h1>{this.state.pageTitle}</h1>
+                </div>
+            </nav>
         );
     }
 }

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav
+{
+    top:0;
+    height: 56px;
+    background-color:#0095d9;	
+    vertical-align:middle;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    #navbar-content{
+        display: flex;
+        width: 2%;
+        justify-content: space-around;
+        h1{
+            color: white;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}

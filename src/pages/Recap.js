@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 import Nav from '../components/Nav';
 
 
-const PriseCommande = () => {
+const Recap = () => {
     return (
         <div>
-            <Nav title="Prise de commande"></Nav>
-            <Link to={'/recap'}>Recap</Link>
+            <Nav title='Recap'></Nav>
+            <Link to={'/'}>Back</Link>
         </div>
     );
 };
 
-export default PriseCommande;
+export default Recap;
