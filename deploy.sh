@@ -1,0 +1,1 @@
+npm run build && cp -r build/* ../murgat_management/data/symfony/public/react && cp build/index.html ../murgat_management/data/symfony/templates/react/index.html.twig
